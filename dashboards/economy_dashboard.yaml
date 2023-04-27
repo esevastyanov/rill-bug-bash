@@ -1,0 +1,17 @@
+# Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
+
+title: "economy_dashboard"
+model: "economy_model"
+default_time_range: ""
+smallest_time_grain: ""
+timeseries: ""
+measures:
+  - label: Total records
+    expression: count(*)
+    name: total_records
+    description: Total number of records present
+    format_preset: humanize
+dimensions:
+  - label: Location_key
+    property: location_key
+    description: ""

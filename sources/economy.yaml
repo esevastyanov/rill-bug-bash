@@ -1,0 +1,4 @@
+# Visit https://docs.rilldata.com/ to learn more about Rill code artifacts.
+
+type: "gcs"
+uri: "gs://covid19-open-data/v3/economy.csv"
